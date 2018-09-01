@@ -20,6 +20,7 @@ class ApplicationController < Sinatra::Base
 end
 
   get '/account' do
+    @user.
     if @current_user
       erb :account
     else
